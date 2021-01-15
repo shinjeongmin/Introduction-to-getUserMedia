@@ -8,3 +8,5 @@ function startup(){
         video.srcObject = stream;
     }).catch(console.error)
 }
+
+window.addEventListener('load', startup, false);
